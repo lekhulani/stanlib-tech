@@ -12,10 +12,10 @@ namespace stanlib_tech.Controllers
         private readonly ILogger<ProductsController> _logger;
         private readonly IProductService _productService;
 
-        public ProductsController(ILogger<ProductsController> logger, IProductService pokemonService)
+        public ProductsController(ILogger<ProductsController> logger, IProductService productService)
         {
             _logger = logger;
-            _productService = pokemonService;
+            _productService = productService;
         }
 
         [HttpGet]
