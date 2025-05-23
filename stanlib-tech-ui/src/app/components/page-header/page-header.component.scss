@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid #B2BEB5;
+    //background-image: url("/poke-img.jpg");
+    .title {
+        font-size: 40px;
+    } 
+}

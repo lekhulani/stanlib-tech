@@ -1,0 +1,14 @@
+@use "../../../mixins.scss";
+.home-container {
+    width: 100%;
+    padding: 0 16px 0 16px;
+    .product-list {
+        list-style: none;
+        @include mixins.flex-container(row, center, flex-start, 16px);
+        flex-wrap: wrap;
+        .product-wrapper {
+            padding: 8px;
+            cursor: pointer;      
+        }
+    }
+}

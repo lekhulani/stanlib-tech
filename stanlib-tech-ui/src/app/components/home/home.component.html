@@ -1,0 +1,8 @@
+<div class="home-container">
+    <app-page-header></app-page-header>
+    <div class="product-list">
+        <div class="product-wrapper" *ngFor="let product of products" (click)="navigateToProduct(product)">
+            <img [src]="product.image" alt="Product" width="200" height="200" />
+        </div>
+    </div>
+</div>

@@ -1,0 +1,49 @@
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+stanlib-tech-ui/dist
+stanlib-tech-ui/tmp
+stanlib-tech-ui/out-tsc
+stanlib-tech-ui/bazel-out
+stanlib-tech-ui/.vscode
+
+# Node
+stanlib-tech-ui/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio/Code
+.vs
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+stanlib-tech-ui/.angular
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+
+#solution files
+stanlib-tech/bin
+stanlib-tech/obj

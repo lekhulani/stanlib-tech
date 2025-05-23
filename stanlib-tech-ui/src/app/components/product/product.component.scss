@@ -1,0 +1,26 @@
+@use "../../../mixins.scss";
+
+.product-container {
+    @include mixins.flex-container(column, center, flex-start, 28px);
+    padding: 18px 0;
+    .header {
+        @include mixins.flex-container(column, center, center, 18px);
+        width: 100%;
+        .back-button {
+            align-self: flex-start;
+        }
+        .name {
+            font-size: 50px;
+            font-weight: 700;
+        }
+    }
+
+    .attribute {
+        @include mixins.flex-container(column, center, center, 18px);
+        width: 100%;
+        .attribute-title {
+            font-size: 30px;
+            font-weight: 400;
+        }
+    }
+}
